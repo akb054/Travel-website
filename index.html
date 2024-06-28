@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Website</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!-- Navbar starts here  -->
+      <div class="container">
+        <div class="row mt-4">
+          <div class="col-xl-4 col-md-6 col-sm-6">
+            <div class="logo">
+              <a href="index.html"><img src="img/logo.svg" alt="Logo" /></a>
+            </div>
+          </div>
+          <div class="col-xl-8 col-md-6 col-sm-6 m_menu">
+            <div class="main-menu navbar_custom">
+              <nav id="nav">
+                <ul
+                  class="d-flex gap-5 justify-content-end pt-3 nav-list_custom"
+                >
+                  <li><a href="#" class="home-active">Home</a></li>
+                  <li><a href="#">Packages</a></li>
+                  <li><a href="#">Testimonial</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="cart-icon">
+              <button id="menu-button">
+                <div class="manu-btn">
+                  <i class="fa-solid fa-bars"></i>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile - Menu -->
+      <div class="desktop_overlay">
+        <ul class="mob_nav_list_custom">
+          <li><a href="#" class="home-active">Home</a></li>
+          <li><a href="#">Packages</a></li>
+          <li><a href="#">Testimonial</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <!-- Navbar ends here  -->
+
+      <!-- Banner section starts here  -->
+      <div class="container my-5">
+        <div
+          class="bg banner text-center rounded-4 d-flex flex-column justify-content-center"
+        >
+          <h2>Explore Your Travel</h2>
+          <p>
+            Dolor sit amet consectetur. Nullam suspendisse vitae ultrices dolor
+            adipiscing. In et odio enim ac quis sapien urna eu phasellus.
+          </p>
+          <form class="search-form row mx-auto">
+            <div class="col-md-3 mb-3">
+              <input
+                type="text"
+                class="form-control w-100"
+                placeholder="Where go"
+              />
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="form-control-select">
+                <select class="form-control w-100">
+                  <option value="">When</option>
+                  <option value="january">January</option>
+                  <option value="february">February</option>
+                  <option value="march">March</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="form-control-select">
+                <select class="form-control w-100">
+                  <option value="">Select Type</option>
+                  <option value="adventure">Adventure</option>
+                  <option value="relaxation">Relaxation</option>
+                  <option value="cultural">Cultural</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <button
+                type="button"
+                class="btn btn-primary btn-lg find-now-btn w-100"
+              >
+                <i class="fa-solid fa-magnifying-glass"></i> Find Now
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!-- Banner section ends here  -->
+
+      <!-- Tour description section starts here  -->
+      <div class="tour-description container mt-4 pt-5">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
+            <div class="td-left">
+              <h3 class="pb-3">Our Popular Tours</h3>
+              <p>
+                Dolor sit amet consectetur. Diam volutpat neque habitasse
+                pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.
+              </p>
+              <ul class="pb-3">
+                <li class="pb-2">
+                  Tempus euismod lacus mauris dignissim quis in ultrices. Magna
+                  nullam odio neque diam. Sociis erat at .
+                </li>
+                <li class="pb-2">
+                  Adipiscing ornare pellentesque mauris volutpat tortor vitae
+                  platea porta lacus. Lectus suspendisse nullam.
+                </li>
+                <li class="pb-2">
+                  Accumsan eget et turpis praesent lorem egestas enim elit
+                  bibendum. Risus at in.
+                </li>
+              </ul>
+              <p class="pb-2">
+                Amet consectetur. Vulputate commodo felis molestie risus ornare
+                nulla amet et. Libero commodo sagittis dignissim adipiscing
+                quis. Habitant adipiscing risus natoque aliquet. Id bibendum
+                nunc senectus semper tincidunt.
+              </p>
+              <button
+                type="button"
+                class="btn btn-primary btn-lg find-now-btn mb-3"
+              >
+                <strong>Read More</strong>
+              </button>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 p-0">
+            <div class="td-right text-end px-3">
+              <img
+                src="img/tour_description.png"
+                class="image-container w-100"
+                alt="Tour Description Image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Tour description section ends here  -->
+
+      <!-- Country details section starts here  -->
+      <div class="container country-details text-center my-5 p-0">
+        <h3>Choose Your Destination</h3>
+        <p class="py-3">
+          Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
+          odio sit massa. <br />
+          Sodales dictumst nec nibh pellentesque.
+        </p>
+        <div class="row gy-3">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <div class="image-container">
+              <img
+                src="img/maldives.png"
+                alt="Maldives Image"
+                class="img-fluid w-100"
+              />
+              <h2 class="centered-heading">Maldives</h2>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <div class="image-container">
+              <img
+                src="img/indonesia.png"
+                alt="Indonesia Image"
+                class="img-fluid w-100"
+              />
+              <h2 class="centered-heading">Indonesia</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-2 mb-4 gx-4 gy-3">
+          <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <div class="image-container">
+              <img
+                src="img/srilanka.png"
+                alt="Srilanka Image"
+                class="img-fluid w-100"
+              />
+              <h2 class="centered-heading">Srilanka</h2>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+            <div class="image-container">
+              <img
+                src="img/north-america.png"
+                alt="North America Image"
+                class="img-fluid w-100"
+              />
+              <h2 class="centered-heading">North America</h2>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+            <div class="image-container">
+              <img
+                src="img/kashmir.png"
+                alt="Kashmir Image"
+                class="img-fluid w-100"
+              />
+              <h2 class="centered-heading">Kashmir</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row gy-3">
+          <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+            <div class="image-container">
+              <img
+                src="img/bangladesh.png"
+                alt="Bangladesh Image"
+                class="img-fluid w-100"
+              />
+              <h2 class="centered-heading">Bangladesh</h2>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
+            <div class="image-container">
+              <img
+                src="img/bandarban.png"
+                alt="Bandarban Image"
+                class="img-fluid w-100"
+              />
+              <h2 class="centered-heading">Bandarban</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Country details section ends here  -->
+
+      <!-- Advertisement section starts here -->
+      <div class="container">
+        <div class="advertisement-wrapper">
+          <h3 class="text-center">Why Choose Us</h3>
+          <p class="text-center py-3">
+            Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
+            odio sit massa. <br />
+            Sodales dictumst nec nibh pellentesque.
+          </p>
+          <div class="row gy-4">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+              <div class="hotel-cart py-4 ps-4 pe-5">
+                <img src="img/hotel.svg" class="pb-4 pt-2" alt="Hotel" />
+                <h4 class="pb-2">Handpicked Hotels</h4>
+                <p>
+                  Amet consectetur. Vulputate commodo felis molestie risus
+                  ornare nulla amet et. Libero commodo sagittis dignissim
+                  adipiscing quis. Habitant adipiscing risus natoque aliquet.
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+              <div class="location-cart py-4 ps-4 pe-5">
+                <img src="img/location.svg" class="pb-4 pt-2" alt="Location" />
+                <h4 class="pb-2">World Class Service</h4>
+                <p>
+                  Amet consectetur. Vulputate commodo felis molestie risus
+                  ornare nulla amet et. Libero commodo sagittis dignissim
+                  adipiscing quis. Habitant adipiscing risus natoque aliquet.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mx-auto">
+              <div class="discount-cart py-4 ps-4 pe-5 mt-4">
+                <img src="img/discount.svg" class="pb-4 pt-2" alt="Discount" />
+                <h4 class="pb-2">Best Price Guarantee</h4>
+                <p>
+                  Amet consectetur. Vulputate commodo felis molestie risus
+                  ornare nulla amet et. Libero commodo sagittis dignissim
+                  adipiscing quis. Habitant adipiscing risus natoque aliquet.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Advertisement section ends here -->
+
+      <!-- Deals & discounts section starts here -->
+      <div class="container">
+        <div class="deal-wrapper text-center pt-5">
+          <h3 class="">Deals & Discounts</h3>
+          <p class="py-3">
+            Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
+            odio sit massa. <br />
+            Sodales dictumst nec nibh pellentesque.
+          </p>
+          <div class="container">
+            <div class="tour-image">
+              <img
+                src="img/deal-img01.png"
+                class="img-fluid w-100 bg-image"
+                alt="Tour Background Image"
+              />
+              <div
+                class="tour-content p-4 bg-white bg-opacity-75 rounded-3 d-flex align-items-end border border-white"
+              >
+                <div class="text-start">
+                  <div class="d-flex gap-3">
+                    <h6 class="deal-text">
+                      <i class="fas fa-clock"></i> 7 Day / 6 Night
+                    </h6>
+                    <h6 class="deal-text">
+                      <i class="fas fa-users"></i> Max: 10
+                    </h6>
+                    <h6 class="deal-text malaysia">
+                      <i class="fas fa-map-marker-alt"></i> Malaysia
+                    </h6>
+                  </div>
+
+                  <h4 class="py-md-3">Tour To Satorini</h4>
+                  <p>
+                    Amet consectetur. Vulputate commodo felis molestie risus
+                    ornare nulla amet et. Libero commodo sagittis dignissim
+                    adipiscing quis. Habitant adipiscing.
+                  </p>
+                  <h5 class="text-danger mb-md-4">Price: $1300-$1500</h5>
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-lg find-now-btn mb-md-3"
+                  >
+                    <strong>Book Now</strong>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container my-4">
+            <div class="tour-image">
+              <img
+                src="img/deal-img02.png"
+                class="w-100 bg-image"
+                alt="Tour Background Image"
+              />
+              <div
+                class="tour-content-middle p-4 bg-white bg-opacity-75 rounded-3 d-flex align-items-end border border-white"
+              >
+                <div class="text-start">
+                  <div class="d-flex gap-3">
+                    <h6 class="deal-text">
+                      <i class="fas fa-clock"></i> 7 Day / 6 Night
+                    </h6>
+                    <h6 class="deal-text">
+                      <i class="fas fa-users"></i> Max: 10
+                    </h6>
+                    <h6 class="deal-text">
+                      <i class="fas fa-map-marker-alt"></i> Malaysia
+                    </h6>
+                  </div>
+
+                  <h4 class="py-md-3">Tour To Satorini</h4>
+                  <p>
+                    Amet consectetur. Vulputate commodo felis molestie risus
+                    ornare nulla amet et. Libero commodo sagittis dignissim
+                    adipiscing quis. Habitant adipiscing.
+                  </p>
+                  <h5 class="text-danger mb-md-4">Price: $1300-$1500</h5>
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-lg find-now-btn mb-3"
+                  >
+                    <strong>Book Now</strong>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="tour-image">
+              <img
+                src="img/deal-img01.png"
+                class="img-fluid w-100 bg-image"
+                alt="Tour Background Image"
+              />
+              <div
+                class="tour-content-3 p-4 bg-white bg-opacity-75 rounded-3 d-flex align-items-end border border-white"
+              >
+                <div class="text-start">
+                  <div class="d-flex gap-3">
+                    <h6 class="deal-text">
+                      <i class="fas fa-clock"></i> 7 Day / 6 Night
+                    </h6>
+                    <h6 class="deal-text">
+                      <i class="fas fa-users"></i> Max: 10
+                    </h6>
+                    <h6 class="deal-text">
+                      <i class="fas fa-map-marker-alt"></i> Malaysia
+                    </h6>
+                  </div>
+                  <h4 class="py-md-3">Tour To Satorini</h4>
+                  <p>
+                    Amet consectetur. Vulputate commodo felis molestie risus
+                    ornare nulla amet et. Libero commodo sagittis dignissim
+                    adipiscing quis. Habitant adipiscing.
+                  </p>
+                  <h5 class="text-danger mb-md-4">Price: $1300-$1500</h5>
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-lg find-now-btn mb-3"
+                  >
+                    <strong>Book Now</strong>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            type="button"
+            class="btn btn-primary btn-lg find-now-btn my-5"
+          >
+            <strong>See All Packages</strong>
+          </button>
+        </div>
+      </div>
+      <!-- Deals & discounts section ends here -->
+
+      <!-- Tour Preview section starts here  -->
+      <div class="tour-preview container mt-4">
+        <div class="row gx-5">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <div class="td-left pt-md-4 pe-md-5 text-center text-md-start">
+              <h3 class="pb-3">
+                A Simple Perfect Place <br />
+                To Get Lost
+              </h3>
+              <p>
+                Dolor sit amet consectetur. Diam volutpat neque habitasse
+                pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.
+              </p>
+              <ul class="pb-3">
+                <li class="pb-2">
+                  <strong
+                    >Adipiscing ornare pellentesque mauris volutpat tortor vitae
+                    platea porta lacus. Lectus suspendisse nullam.</strong
+                  >
+                </li>
+                <li class="pb-2">
+                  <strong
+                    >Accumsan eget et turpis praesent lorem egestas enim elit
+                    bibendum. Risus at in.</strong
+                  >
+                </li>
+              </ul>
+              <button
+                type="button"
+                class="btn btn-primary btn-lg find-now-btn mb-3"
+              >
+                <strong>See More</strong>
+              </button>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 p-0">
+            <div class="td-right text-end px-3">
+              <img
+                src="img/tour-preview.png"
+                class="image-container w-100"
+                alt="Tour Preview Image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Tour Preview section ends here  -->
+
+      <!-- Newsletter section starts here  -->
+      <div class="container py-4">
+        <div class="newsletter my-5">
+          <div class="row h-100 gy-3">
+            <div class="col-12 col-sm-12 col-md-5 h-100">
+              <div class="newsletter-left p-5 h-100">
+                <h4>Newsletter</h4>
+                <p>Get your daily dose of travel news & tips. Sign up today!</p>
+                <hr />
+                <form>
+                  <div class="mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Enter your name"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="Enter your email"
+                    />
+                  </div>
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-lg find-now-btn mb-3"
+                  >
+                    <strong>Subscribe</strong>
+                  </button>
+                </form>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-7 h-100">
+              <div class="newsletter-right h-100">
+                <div class="newsletter-img tour-image h-100">
+                  <img
+                    src="img/newsletter-img.png"
+                    class="newsletter-img w-100"
+                    alt="Tour Background Image"
+                  />
+                  <div
+                    class="newsletter-content bg-secondary text-white text-center p-4"
+                  >
+                    <p>Travel.com</p>
+                    <h3>Save up to 70%</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Newsletter section ends here  -->
+    </div>
+
+    <!-- Footer section starts here  -->
+    <footer>
+      <div
+        class="container-fluid footer-area d-flex flex-column align-items-center justify-content-center mt-4 d-block"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7 mx-auto">
+              <div class="footer-area-content text-center">
+                <img src="img/footer-logo.png" alt="Footer Logo" />
+                <p class="pt-4">
+                  Lorem ipsum dolor sit amet consectetur. Nulla sit viverra
+                  morbi vitae blandit orci potenti vulputate. Leo erat maecenas
+                  vitae elementum ultricies nullam.
+                </p>
+                <div class="container text-center mt-4">
+                  <div class="social-icons">
+                    <a
+                      href="https://twitter.com"
+                      target="_blank"
+                      class="fab fa-twitter"
+                    ></a>
+                    <a
+                      href="https://facebook.com"
+                      target="_blank"
+                      class="fab fa-facebook"
+                    ></a>
+                    <a
+                      href="https://instagram.com"
+                      target="_blank"
+                      class="fab fa-instagram"
+                    ></a>
+                    <a
+                      href="https://github.com"
+                      target="_blank"
+                      class="fab fa-github"
+                    ></a>
+                  </div>
+                </div>
+                <hr class="my-4" />
+                <p>2017, All Rights Reserved.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer section ends here  -->
+
+    <script src="/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
